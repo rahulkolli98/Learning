@@ -13,7 +13,11 @@ write , read , append, delete
 
     })
 
-}).listen(8080) */
+}).listen(8080) 
+
+This is to convert the text to uppercase, first install 
+the uppercase package in cmd using npm i upper-case 
+and then have to use it for similar modules too. 
 
 var http = require('http');
 var uc = require('upper-case');
@@ -23,5 +27,5 @@ http.createServer((req,res)=>{
     res.end();
 }
 ).listen(8080)
-
+*/
 
